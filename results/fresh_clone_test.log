@@ -1,0 +1,12 @@
+fresh clone of commit 37da20c59c66 in /home/jyoti/thesis-fresh
+Note: switching to 'd1b2fe782888bdb761a50336012923180be7f502'.
+Note: switching to 'd1b2fe782888bdb761a50336012923180be7f502'.
+sources ok:
+  kyber-v0  b628ba78711b  unmodified
+  kyber-v1  9b8d30698a3e  unmodified
+  mlkem-native-v2  d1b2fe782888  unmodified
+  mlkem-native-v3  d1b2fe782888  patched
+  mlkem-native-v2leak  d1b2fe782888  patched
+round 1 done: 84 cells
+original cells: 84   (flags.csv contains one extra control row for v0 clang-18 Os off)
+round 1: 84 cells, identical to original (status, error count, contexts, location, instructions): 84

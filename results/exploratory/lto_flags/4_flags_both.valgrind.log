@@ -1,0 +1,15 @@
+==7193== Memcheck, a memory error detector
+==7193== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==7193== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==7193== Command: /home/jyoti/thesis/thesis-artifact/results/exploratory/lto_flags/4_flags_both.bin
+==7193== 
+dec=0 match=1 anchor=0x4000850
+==7193== 
+==7193== HEAP SUMMARY:
+==7193==     in use at exit: 0 bytes in 0 blocks
+==7193==   total heap usage: 1 allocs, 1 frees, 4,096 bytes allocated
+==7193== 
+==7193== All heap blocks were freed -- no leaks are possible
+==7193== 
+==7193== For lists of detected and suppressed errors, rerun with: -s
+==7193== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

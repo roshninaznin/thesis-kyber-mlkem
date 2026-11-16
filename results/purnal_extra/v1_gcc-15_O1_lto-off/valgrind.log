@@ -1,0 +1,15 @@
+==40494== Memcheck, a memory error detector
+==40494== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==40494== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==40494== Command: /home/jyoti/thesis/thesis-artifact/results/purnal_extra/v1_gcc-15_O1_lto-off/ct_valgrind512
+==40494== 
+dec=0 match=1 anchor=0x40051fb
+==40494== 
+==40494== HEAP SUMMARY:
+==40494==     in use at exit: 0 bytes in 0 blocks
+==40494==   total heap usage: 1 allocs, 1 frees, 4,096 bytes allocated
+==40494== 
+==40494== All heap blocks were freed -- no leaks are possible
+==40494== 
+==40494== For lists of detected and suppressed errors, rerun with: -s
+==40494== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

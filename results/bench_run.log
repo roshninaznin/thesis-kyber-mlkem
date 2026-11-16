@@ -1,0 +1,26 @@
+round 1/11 done
+round 2/11 done
+round 3/11 done
+round 4/11 done
+round 5/11 done
+round 6/11 done
+round 7/11 done
+round 8/11 done
+round 9/11 done
+round 10/11 done
+round 11/11 done
+
+variant,opt,median_of_medians,lowest_round,highest_round
+v0,O3,91157,88843,92927
+v0,Os,99324,95801,106945
+v1,O3,88025,86371,89235
+v1,Os,108725,106598,111677
+v2,O3,57364,56222,58668
+v2,Os,80404,79072,82069
+v3,O3,53878,52781,55181
+v3,Os,77137,75376,78944
+
+H6a V1 vs V0 Os: median +9.46%  quartiles +7.20% .. +10.08%  range +1.53% .. +13.18%  (11 rounds)  -> not supported
+H6b V2 vs V3 Os: median +4.17%  quartiles +2.65% .. +4.24%  range +2.03% .. +7.88%  (11 rounds)  -> supported
+H6a V1 vs V0 O3: median -3.36%  quartiles -4.54% .. -3.24%  range -6.83% .. -1.92%  (11 rounds)  -> supported
+H6b V2 vs V3 O3: median +6.59%  quartiles +4.34% .. +6.74%  range +2.34% .. +9.45%  (11 rounds)  -> inconclusive

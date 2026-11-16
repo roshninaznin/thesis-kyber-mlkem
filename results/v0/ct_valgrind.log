@@ -1,0 +1,23 @@
+==801== Memcheck, a memory error detector
+==801== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==801== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==801== Command: ./ct_valgrind512
+==801== 
+==801== Conditional jump or move depends on uninitialised value(s)
+==801==    at 0x4002027: pqcrystals_kyber512_ref_poly_frommsg (poly.c:178)
+==801==    by 0x400192E: pqcrystals_kyber512_ref_indcpa_enc (indcpa.c:269)
+==801==    by 0x40014F6: pqcrystals_kyber512_ref_dec (kem.c:114)
+==801==    by 0x400372D: main (thesis-artifact/harness/ct_valgrind.c:27)
+==801==  Uninitialised value was created by a client request
+==801==    at 0x40036C4: main (thesis-artifact/harness/ct_valgrind.c:25)
+==801== 
+dec=0 match=1
+==801== 
+==801== HEAP SUMMARY:
+==801==     in use at exit: 0 bytes in 0 blocks
+==801==   total heap usage: 1 allocs, 1 frees, 4,096 bytes allocated
+==801== 
+==801== All heap blocks were freed -- no leaks are possible
+==801== 
+==801== For lists of detected and suppressed errors, rerun with: -s
+==801== ERROR SUMMARY: 256 errors from 1 contexts (suppressed: 0 from 0)

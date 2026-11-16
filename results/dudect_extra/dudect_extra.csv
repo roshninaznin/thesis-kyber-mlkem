@@ -1,0 +1,13 @@
+cell,rep,measurements,seconds,max_abs_t,test_index,n_in_test,label,date_utc
+v1_Os_lto,1,10000000,404,2.06,39,1457713,maybe_constant_time,2026-11-12T12:03:49Z
+v1_O2nv_lto,1,10000000,361,1.21,78,9915867,maybe_constant_time,2026-11-12T12:09:50Z
+v0_O3,1,10000000,471,2.22,19,6716992,maybe_constant_time,2026-11-12T12:17:41Z
+v0_O1,1,10000000,539,2458.90,45,8889520,definitely_not_constant_time,2026-11-12T12:26:40Z
+v1_Os_lto,2,10000000,407,1.71,10,6247428,maybe_constant_time,2026-11-12T12:33:27Z
+v1_O2nv_lto,2,10000000,360,2.57,61,9865861,maybe_constant_time,2026-11-12T12:39:27Z
+v0_O3,2,10000000,469,1.45,101,9959083,maybe_constant_time,2026-11-12T12:47:16Z
+v0_O1,2,10000000,534,2615.82,12,3568248,definitely_not_constant_time,2026-11-12T12:56:10Z
+v1_Os_lto,3,10000000,406,1.44,101,9958995,maybe_constant_time,2026-11-12T13:02:56Z
+v1_O2nv_lto,3,10000000,360,1.75,1,5217136,maybe_constant_time,2026-11-12T13:08:56Z
+v0_O3,3,10000000,469,1.47,8,1550157,maybe_constant_time,2026-11-12T13:16:45Z
+v0_O1,3,10000000,536,2130.90,31,9555206,definitely_not_constant_time,2026-11-12T13:25:41Z

@@ -1,0 +1,20 @@
+# compiled binaries (rebuilt from source + recorded commands)
+harness/toy_leak
+*.o
+results/cells/*/ct_valgrind512
+results/cells/*/test_vectors512
+results/cells/*/disasm.s
+results/exploratory/*/*.bin
+results/flags/*/ct_valgrind512
+results/flags/*/test_vectors512
+results/flags/*/disasm.s
+results/mlkem/*/ct_valgrind512
+results/mlkem/*/disasm.s
+results/bench/bench_v[0-3]_O[s3]
+results/dudect/*.bin
+results/replication/r*/
+results/purnal_extra/*/ct_valgrind512
+results/purnal_extra/*/test_vectors512
+results/purnal_extra/*/disasm.s
+results/dudect_extra/*.bin
+writeup/

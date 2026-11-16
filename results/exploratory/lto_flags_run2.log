@@ -1,0 +1,4 @@
+1_noflags: run_exit=0 vg_exit=1 branch_contexts=8 pqcrystals_kyber512_ref_poly_frommsg (poly.c:178)
+2_flags_compile: run_exit=0 vg_exit=1 branch_contexts=8 pqcrystals_kyber512_ref_poly_frommsg (poly.c:178)
+3_flags_link: run_exit=0 vg_exit=0 branch_contexts=0 
+4_flags_both: run_exit=0 vg_exit=0 branch_contexts=0 

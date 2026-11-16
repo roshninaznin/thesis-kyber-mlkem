@@ -1,0 +1,23 @@
+==1101== Memcheck, a memory error detector
+==1101== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==1101== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==1101== Command: /home/jyoti/thesis/thesis-artifact/results/mlkem/v2leak_gcc-15_Os_lto-on/ct_valgrind512
+==1101== 
+==1101== Conditional jump or move depends on uninitialised value(s)
+==1101==    at 0x400305D: mlkem_poly_frommsg (compress.c:722)
+==1101==    by 0x400305D: mlkem_indcpa_enc (indcpa.c:566)
+==1101==    by 0x40039F2: mlkem_dec.constprop.0 (kem.c:443)
+==1101==    by 0x400130E: main (ct_valgrind_mlkem.c:60)
+==1101==  Uninitialised value was created by a client request
+==1101==    at 0x40012A6: main (ct_valgrind_mlkem.c:58)
+==1101== 
+dec=0 match=1 kat=1 anchor=0x4004080
+==1101== 
+==1101== HEAP SUMMARY:
+==1101==     in use at exit: 0 bytes in 0 blocks
+==1101==   total heap usage: 1 allocs, 1 frees, 4,096 bytes allocated
+==1101== 
+==1101== All heap blocks were freed -- no leaks are possible
+==1101== 
+==1101== For lists of detected and suppressed errors, rerun with: -s
+==1101== ERROR SUMMARY: 256 errors from 1 contexts (suppressed: 0 from 0)

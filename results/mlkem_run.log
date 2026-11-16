@@ -1,0 +1,43 @@
+toy control ok (L caught, C clean)
+[FLAGGED] v2leak clang-18 Os lto=off | tests=pass kat=pass | vg_errors=256 contexts=1 | mlkem_poly_frommsg (mlkem/src/compress.c:722) | 14bc:je 
+[FLAGGED] v2leak clang-18 Os lto=on | tests=pass kat=pass | vg_errors=256 contexts=1 | mlkem_poly_frommsg (compress.c:722) | 3ee6:je 
+[FLAGGED] v2leak clang-21 Os lto=off | tests=pass kat=pass | vg_errors=256 contexts=1 | mlkem_poly_frommsg (mlkem/src/compress.c:722) | 14e4:je 
+[FLAGGED] v2leak clang-21 Os lto=on | tests=pass kat=pass | vg_errors=256 contexts=1 | mlkem_poly_frommsg (compress.c:722) | 3f27:je 
+[FLAGGED] v2leak gcc-15 Os lto=off | tests=pass kat=pass | vg_errors=256 contexts=1 | mlkem_poly_frommsg (compress.c:722) | 18d0:je 
+[FLAGGED] v2leak gcc-15 Os lto=on | tests=pass kat=pass | vg_errors=256 contexts=1 | mlkem_poly_frommsg (compress.c:722) | 305d:je 
+[NO ISSUE OBSERVED] v2 clang-18 Os lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v2 clang-18 Os lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v2 clang-18 O2nv lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v2 clang-18 O2nv lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v2 clang-18 O3 lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v2 clang-18 O3 lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v2 clang-21 Os lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v2 clang-21 Os lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v2 clang-21 O2nv lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v2 clang-21 O2nv lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v2 clang-21 O3 lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v2 clang-21 O3 lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v2 gcc-15 Os lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v2 gcc-15 Os lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v2 gcc-15 O2nv lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v2 gcc-15 O2nv lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v2 gcc-15 O3 lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v2 gcc-15 O3 lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v3 clang-18 Os lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v3 clang-18 Os lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v3 clang-18 O2nv lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v3 clang-18 O2nv lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v3 clang-18 O3 lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v3 clang-18 O3 lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v3 clang-21 Os lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v3 clang-21 Os lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v3 clang-21 O2nv lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v3 clang-21 O2nv lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v3 clang-21 O3 lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v3 clang-21 O3 lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v3 gcc-15 Os lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v3 gcc-15 Os lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v3 gcc-15 O2nv lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v3 gcc-15 O2nv lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v3 gcc-15 O3 lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v3 gcc-15 O3 lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA

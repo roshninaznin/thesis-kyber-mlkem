@@ -1,0 +1,1 @@
+clang-18 -Wall -Wextra -Wpedantic -Wmissing-prototypes -Wredundant-decls -Wshadow -Wpointer-arith -Os -fomit-frame-pointer -DKYBER_K=2 -I. kex.c kem.c indcpa.c polyvec.c poly.c ntt.c cbd.c reduce.c verify.c fips202.c symmetric-shake.c randombytes.c /home/jyoti/thesis/thesis-artifact/harness/bench_dec.c -o /home/jyoti/thesis/thesis-artifact/results/bench/bench_v0_Os

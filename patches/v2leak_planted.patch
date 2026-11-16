@@ -1,0 +1,21 @@
+diff --git a/mlkem/src/compress.c b/mlkem/src/compress.c
+index b42c2584..732f6ca8 100644
+--- a/mlkem/src/compress.c
++++ b/mlkem/src/compress.c
+@@ -692,6 +692,7 @@ void mlk_poly_frombytes(mlk_poly *r, const uint8_t a[MLKEM_POLYBYTES])
+  *              The reference implementation contains the expression
+  *              `(msg[i] >> j) & 1` which the compiler can reason must
+  *              be either 0 or 1. */
++static volatile unsigned planted_leak_sink; /* PLANTED LEAK (control) */
+ MLK_INTERNAL_API
+ void mlk_poly_frommsg(mlk_poly *r, const uint8_t msg[MLKEM_INDCPA_MSGBYTES])
+ {
+@@ -718,7 +719,7 @@ void mlk_poly_frommsg(mlk_poly *r, const uint8_t msg[MLKEM_INDCPA_MSGBYTES])
+ 
+       /* Prevent the compiler from recognizing this as a bit selection */
+       uint8_t mask = mlk_value_barrier_u8((uint8_t)(1u << j));
+-      r->coeffs[8 * i + j] = mlk_ct_sel_int16(MLKEM_Q_HALF, 0, msg[i] & mask);
++      r->coeffs[8 * i + j] = 0; if (msg[i] & mask) { planted_leak_sink++; r->coeffs[8 * i + j] = MLKEM_Q_HALF; } /* PLANTED LEAK (control) */
+     }
+   }
+   mlk_assert_abs_bound(r, MLKEM_N, MLKEM_Q);

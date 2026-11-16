@@ -1,0 +1,5 @@
+A_baseline: run_exit=0 pandn=22 vg_exit=0 branch_contexts=0 
+B_compile_noslp: run_exit=0 pandn=24 vg_exit=0 branch_contexts=0 
+C_link_noloop: run_exit=0 pandn=2 vg_exit=0 branch_contexts=0 
+D_link_noslp: run_exit=0 pandn=22 vg_exit=0 branch_contexts=0 
+E_link_noloop_noslp: run_exit=0 pandn=0 vg_exit=1 branch_contexts=8 pqcrystals_kyber512_ref_poly_frommsg (poly.c:178)

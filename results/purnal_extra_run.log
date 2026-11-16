@@ -1,0 +1,13 @@
+[FLAGGED] v0 clang-18 Os lto=off | tests=pass kat=pass | vg_errors=256 contexts=1 | pqcrystals_kyber512_ref_poly_frommsg (poly.c:178) | 2027:jae 
+[FLAGGED] v0 clang-18 O1 lto=off | tests=pass kat=pass | vg_errors=256 contexts=1 | pqcrystals_kyber512_ref_poly_frommsg (poly.c:178) | 21e8:jae 
+[NO ISSUE OBSERVED] v1 clang-18 O1 lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[FLAGGED] v0 clang-21 O1 lto=off | tests=pass kat=pass | vg_errors=256 contexts=1 | pqcrystals_kyber512_ref_poly_frommsg (poly.c:178) | 21e8:jae 
+[NO ISSUE OBSERVED] v1 clang-21 O1 lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v0 gcc-15 O1 lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v1 gcc-15 O1 lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[FLAGGED] v0 clang-18 O3nv lto=off | tests=pass kat=pass | vg_errors=256 contexts=15 | pqcrystals_kyber512_ref_poly_frommsg (poly.c:178) | 260d:jne 2620:jne 2633:jne 2646:jne 2659:jne 266c:jne 267f:jne 2692:jns 26b2:je 26ca:je 26e2:je 26fa:je 2712:je 272a:je 2742:jns 
+[NO ISSUE OBSERVED] v1 clang-18 O3nv lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[FLAGGED] v0 clang-21 O3nv lto=off | tests=pass kat=pass | vg_errors=256 contexts=15 | pqcrystals_kyber512_ref_poly_frommsg (poly.c:178) | 25dd:jne 25f0:jne 2603:jne 2616:jne 2629:jne 263c:jne 264f:jne 2662:jns 2682:je 269a:je 26b2:je 26ca:je 26e2:je 26fa:je 2712:jns 
+[NO ISSUE OBSERVED] v1 clang-21 O3nv lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v0 gcc-15 O3nv lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v1 gcc-15 O3nv lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
