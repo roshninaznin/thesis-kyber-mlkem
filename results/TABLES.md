@@ -73,18 +73,18 @@ dudect thresholds: |t| > 10 probably not constant time, > 500 definitely not.
 
 | cell | rep 1 | rep 2 | rep 3 | label |
 |---|---|---|---|---|
-| v0_Os | 1011.78 | 1898.99 | 1789.31 | definitely_not_constant_time |
-| v1_Os | 2.05 | 1.90 | 2.65 | maybe_constant_time |
-| v0_O2nv | 3017.43 | 2771.88 | 2409.22 | definitely_not_constant_time |
-| v1_O2nv | 2.18 | 1.59 | 1.48 | maybe_constant_time |
-| v0_Os_lto | 2.86 | 2.22 | 1.54 | maybe_constant_time |
-| v0flags_Os | 1.13 | 1.98 | 1.16 | maybe_constant_time |
-| v2_Os | 2.20 | 2.07 | 1.43 | maybe_constant_time |
-| v3_Os | 2.90 | 1.15 | 1.71 | maybe_constant_time |
-| v1_Os_lto | 2.06 | 1.71 | 1.44 | maybe_constant_time |
-| v1_O2nv_lto | 1.21 | 2.57 | 1.75 | maybe_constant_time |
-| v0_O3 | 2.22 | 1.45 | 1.47 | maybe_constant_time |
-| v0_O1 | 2458.90 | 2615.82 | 2130.90 | definitely_not_constant_time |
+| v0_Os | 4853.72 | 2989.34 | 5388.16 | definitely_not_constant_time |
+| v1_Os | 1.80 | 2.72 | 2.20 | maybe_constant_time |
+| v0_O2nv | 3230.04 | 1674.88 | 4293.75 | definitely_not_constant_time |
+| v1_O2nv | 2.30 | 1.43 | 2.32 | maybe_constant_time |
+| v0_Os_lto | 2.16 | 2.33 | 2.03 | maybe_constant_time |
+| v0flags_Os | 1.68 | 2.39 | 2.22 | maybe_constant_time |
+| v2_Os | 1.97 | 2.06 | 1.32 | maybe_constant_time |
+| v3_Os | 1.92 | 2.70 | 1.03 | maybe_constant_time |
+| v1_Os_lto | 1.55 | 1.87 | 1.89 | maybe_constant_time |
+| v1_O2nv_lto | 2.70 | nan | 1.59 | maybe_constant_time |
+| v0_O3 | 1.92 | 1.68 | 1.93 | maybe_constant_time |
+| v0_O1 | 185.67 | 4125.90 | 4670.78 | definitely_not_constant_time |
 
 ## Table 6. Decapsulation performance (results/bench)
 
@@ -92,19 +92,19 @@ Median cycles over 11 rounds (median of per-run medians), lowest and highest rou
 
 | variant | opt | median | lowest round | highest round |
 |---|---|---|---|---|
-| v0 | O3 | 91157 | 88843 | 92927 |
-| v1 | O3 | 88025 | 86371 | 89235 |
-| v2 | O3 | 57364 | 56222 | 58668 |
-| v3 | O3 | 53878 | 52781 | 55181 |
-| v0 | Os | 99324 | 95801 | 106945 |
-| v1 | Os | 108725 | 106598 | 111677 |
-| v2 | Os | 80404 | 79072 | 82069 |
-| v3 | Os | 77137 | 75376 | 78944 |
+| v0 | O3 | 86058 | 85971 | 86416 |
+| v1 | O3 | 81941 | 81865 | 82018 |
+| v2 | O3 | 53237 | 53069 | 53449 |
+| v3 | O3 | 49890 | 49684 | 50016 |
+| v0 | Os | 90801 | 90659 | 91762 |
+| v1 | Os | 100945 | 100899 | 102072 |
+| v2 | Os | 74712 | 74643 | 74982 |
+| v3 | Os | 71566 | 71492 | 79010 |
 
 Overhead and pre-registered 5% decision (verbatim from results/bench/overhead.txt):
 ```
-H6a V1 vs V0 Os: median +9.46%  quartiles +7.20% .. +10.08%  range +1.53% .. +13.18%  (11 rounds)  -> not supported
-H6b V2 vs V3 Os: median +4.17%  quartiles +2.65% .. +4.24%  range +2.03% .. +7.88%  (11 rounds)  -> supported
-H6a V1 vs V0 O3: median -3.36%  quartiles -4.54% .. -3.24%  range -6.83% .. -1.92%  (11 rounds)  -> supported
-H6b V2 vs V3 O3: median +6.59%  quartiles +4.34% .. +6.74%  range +2.34% .. +9.45%  (11 rounds)  -> inconclusive
+H6a V1 vs V0 Os: median +11.17%  quartiles +10.82% .. +11.28%  range +9.99% .. +12.53%  (11 rounds)  -> not supported
+H6b V2 vs V3 Os: median +4.42%  quartiles +4.27% .. +4.45%  range -5.30% .. +4.74%  (11 rounds)  -> supported
+H6a V1 vs V0 O3: median -4.82%  quartiles -4.98% .. -4.78%  range -5.13% .. -4.69%  (11 rounds)  -> supported
+H6b V2 vs V3 O3: median +6.82%  quartiles +6.64% .. +6.98%  range +6.29% .. +7.31%  (11 rounds)  -> not supported
 ```

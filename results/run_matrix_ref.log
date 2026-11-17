@@ -1,0 +1,37 @@
+toy control ok (L caught, C clean)
+[FLAGGED] v0 clang-18 Os lto=off | tests=pass kat=pass | vg_errors=256 contexts=1 | pqcrystals_kyber512_ref_poly_frommsg (poly.c:178) | 2027:jae 
+[NO ISSUE OBSERVED] v0 clang-18 Os lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[FLAGGED] v0 clang-18 O2nv lto=off | tests=pass kat=pass | vg_errors=256 contexts=8 | pqcrystals_kyber512_ref_poly_frommsg (poly.c:178) | 23ed:je 2401:je 2415:je 2429:je 243d:je 2451:je 2465:je 2479:jns 
+[NO ISSUE OBSERVED] v0 clang-18 O2nv lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v0 clang-18 O3 lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v0 clang-18 O3 lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[FLAGGED] v0 clang-21 Os lto=off | tests=pass kat=pass | vg_errors=256 contexts=1 | pqcrystals_kyber512_ref_poly_frommsg (poly.c:178) | 2035:jae 
+[NO ISSUE OBSERVED] v0 clang-21 Os lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[FLAGGED] v0 clang-21 O2nv lto=off | tests=pass kat=pass | vg_errors=256 contexts=8 | pqcrystals_kyber512_ref_poly_frommsg (poly.c:178) | 23dd:je 23f1:je 2405:je 2419:je 242d:je 2441:je 2455:je 2469:jns 
+[NO ISSUE OBSERVED] v0 clang-21 O2nv lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v0 clang-21 O3 lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v0 clang-21 O3 lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v0 gcc-15 Os lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v0 gcc-15 Os lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v0 gcc-15 O2nv lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v0 gcc-15 O2nv lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v0 gcc-15 O3 lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v0 gcc-15 O3 lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v1 clang-18 Os lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v1 clang-18 Os lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v1 clang-18 O2nv lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v1 clang-18 O2nv lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v1 clang-18 O3 lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v1 clang-18 O3 lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v1 clang-21 Os lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v1 clang-21 Os lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v1 clang-21 O2nv lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v1 clang-21 O2nv lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v1 clang-21 O3 lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v1 clang-21 O3 lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v1 gcc-15 Os lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v1 gcc-15 Os lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v1 gcc-15 O2nv lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v1 gcc-15 O2nv lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v1 gcc-15 O3 lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v1 gcc-15 O3 lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA

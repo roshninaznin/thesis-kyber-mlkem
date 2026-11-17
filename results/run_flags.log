@@ -1,0 +1,14 @@
+toy control ok (L caught, C clean)
+[FLAGGED] v0 clang-18 Os lto=off | tests=pass kat=pass | vg_errors=256 contexts=1 | pqcrystals_kyber512_ref_poly_frommsg (poly.c:178) | 2027:jae 
+[NO ISSUE OBSERVED] v0-flags-compile clang-18 Os lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v0-flags-compile clang-18 Os lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v0-flags-link clang-18 Os lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v0-flags-both clang-18 Os lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v0-flags-compile clang-18 O2nv lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v0-flags-compile clang-18 O2nv lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v0-flags-link clang-18 O2nv lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v0-flags-both clang-18 O2nv lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v0-flags-compile clang-18 O3 lto=off | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v0-flags-compile clang-18 O3 lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v0-flags-link clang-18 O3 lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA
+[NO ISSUE OBSERVED] v0-flags-both clang-18 O3 lto=on | tests=pass kat=pass | vg_errors=0 contexts=0 | NA | NA

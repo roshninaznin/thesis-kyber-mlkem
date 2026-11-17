@@ -1,4 +1,4 @@
-H6a V1 vs V0 Os: median +9.46%  quartiles +7.20% .. +10.08%  range +1.53% .. +13.18%  (11 rounds)  -> not supported
-H6b V2 vs V3 Os: median +4.17%  quartiles +2.65% .. +4.24%  range +2.03% .. +7.88%  (11 rounds)  -> supported
-H6a V1 vs V0 O3: median -3.36%  quartiles -4.54% .. -3.24%  range -6.83% .. -1.92%  (11 rounds)  -> supported
-H6b V2 vs V3 O3: median +6.59%  quartiles +4.34% .. +6.74%  range +2.34% .. +9.45%  (11 rounds)  -> inconclusive
+H6a V1 vs V0 Os: median +11.17%  quartiles +10.82% .. +11.28%  range +9.99% .. +12.53%  (11 rounds)  -> not supported
+H6b V2 vs V3 Os: median +4.42%  quartiles +4.27% .. +4.45%  range -5.30% .. +4.74%  (11 rounds)  -> supported
+H6a V1 vs V0 O3: median -4.82%  quartiles -4.98% .. -4.78%  range -5.13% .. -4.69%  (11 rounds)  -> supported
+H6b V2 vs V3 O3: median +6.82%  quartiles +6.64% .. +6.98%  range +6.29% .. +7.31%  (11 rounds)  -> not supported

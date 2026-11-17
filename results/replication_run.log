@@ -1,12 +1,4 @@
 round 1 done: 84 cells
-round 2 done: 84 cells
-round 3 done: 84 cells
-round 4 done: 84 cells
-round 5 done: 84 cells
 
 original cells: 84   (flags.csv contains one extra control row for v0 clang-18 Os off)
 round 1: 84 cells, identical to original (status, error count, contexts, location, instructions): 84
-round 2: 84 cells, identical to original (status, error count, contexts, location, instructions): 84
-round 3: 84 cells, identical to original (status, error count, contexts, location, instructions): 84
-round 4: 84 cells, identical to original (status, error count, contexts, location, instructions): 84
-round 5: 84 cells, identical to original (status, error count, contexts, location, instructions): 84

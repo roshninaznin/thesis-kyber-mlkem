@@ -1,76 +1,76 @@
 built: v0_Os v1_Os v0_O2nv v1_O2nv v0_Os_lto v0flags_Os v2_Os v3_Os
-18:49:32 start v0_Os rep 1
-   FINAL measurements=10000000 seconds=566 max_abs_t=1011.78 test_index=52 n_in_test=7813835 label=definitely_not_constant_time
-18:58:58 start v1_Os rep 1
-   FINAL measurements=10000000 seconds=522 max_abs_t=2.05 test_index=50 n_in_test=9539685 label=maybe_constant_time
-19:07:41 start v0_O2nv rep 1
-   FINAL measurements=10000000 seconds=502 max_abs_t=3017.43 test_index=36 n_in_test=8237969 label=definitely_not_constant_time
-19:16:02 start v1_O2nv rep 1
-   FINAL measurements=10000000 seconds=540 max_abs_t=2.18 test_index=54 n_in_test=9724140 label=maybe_constant_time
-19:25:02 start v0_Os_lto rep 1
-   FINAL measurements=10000000 seconds=415 max_abs_t=2.86 test_index=59 n_in_test=9777404 label=maybe_constant_time
-19:31:57 start v0flags_Os rep 1
-   FINAL measurements=10000000 seconds=534 max_abs_t=1.13 test_index=79 n_in_test=9929161 label=maybe_constant_time
-19:40:51 start v2_Os rep 1
-   FINAL measurements=10000000 seconds=438 max_abs_t=2.20 test_index=55 n_in_test=9697060 label=maybe_constant_time
-19:48:09 start v3_Os rep 1
-   FINAL measurements=10000000 seconds=398 max_abs_t=2.90 test_index=34 n_in_test=7019872 label=maybe_constant_time
-19:54:47 start v0_Os rep 2
-   FINAL measurements=10000000 seconds=550 max_abs_t=1898.99 test_index=31 n_in_test=9294985 label=definitely_not_constant_time
-20:03:57 start v1_Os rep 2
-   FINAL measurements=10000000 seconds=528 max_abs_t=1.90 test_index=7 n_in_test=1704738 label=maybe_constant_time
-20:12:45 start v0_O2nv rep 2
-   FINAL measurements=10000000 seconds=504 max_abs_t=2771.88 test_index=17 n_in_test=5910486 label=definitely_not_constant_time
-20:21:09 start v1_O2nv rep 2
-   FINAL measurements=10000000 seconds=545 max_abs_t=1.59 test_index=57 n_in_test=9666624 label=maybe_constant_time
-20:30:14 start v0_Os_lto rep 2
-   FINAL measurements=10000000 seconds=414 max_abs_t=2.22 test_index=1 n_in_test=3546648 label=maybe_constant_time
-20:37:08 start v0flags_Os rep 2
-   FINAL measurements=10000000 seconds=534 max_abs_t=1.98 test_index=65 n_in_test=9849329 label=maybe_constant_time
-20:46:02 start v2_Os rep 2
-   FINAL measurements=10000000 seconds=415 max_abs_t=2.07 test_index=5 n_in_test=5274770 label=maybe_constant_time
-20:52:57 start v3_Os rep 2
-   FINAL measurements=10000000 seconds=399 max_abs_t=1.15 test_index=57 n_in_test=9744956 label=maybe_constant_time
-20:59:36 start v0_Os rep 3
-   FINAL measurements=10000000 seconds=548 max_abs_t=1789.31 test_index=38 n_in_test=9485416 label=definitely_not_constant_time
-21:08:44 start v1_Os rep 3
-   FINAL measurements=10000000 seconds=524 max_abs_t=2.65 test_index=1 n_in_test=343477 label=maybe_constant_time
-21:17:28 start v0_O2nv rep 3
-   FINAL measurements=10000000 seconds=503 max_abs_t=2409.22 test_index=20 n_in_test=7040760 label=definitely_not_constant_time
-21:25:51 start v1_O2nv rep 3
-   FINAL measurements=10000000 seconds=536 max_abs_t=1.48 test_index=23 n_in_test=9708872 label=maybe_constant_time
-21:34:47 start v0_Os_lto rep 3
-   FINAL measurements=10000000 seconds=410 max_abs_t=1.54 test_index=14 n_in_test=4785782 label=maybe_constant_time
-21:41:37 start v0flags_Os rep 3
-   FINAL measurements=10000000 seconds=529 max_abs_t=1.16 test_index=99 n_in_test=9967639 label=maybe_constant_time
-21:50:26 start v2_Os rep 3
-   FINAL measurements=10000000 seconds=410 max_abs_t=1.43 test_index=101 n_in_test=9959093 label=maybe_constant_time
-21:57:16 start v3_Os rep 3
-   FINAL measurements=10000000 seconds=394 max_abs_t=1.71 test_index=20 n_in_test=8750812 label=maybe_constant_time
+01:37:04 start v0_Os rep 1
+   FINAL measurements=10000000 seconds=647 max_abs_t=4853.72 test_index=6 n_in_test=5978737 label=definitely_not_constant_time
+01:47:51 start v1_Os rep 1
+   FINAL measurements=10000000 seconds=611 max_abs_t=1.80 test_index=93 n_in_test=9958038 label=maybe_constant_time
+01:58:02 start v0_O2nv rep 1
+   FINAL measurements=10000000 seconds=540 max_abs_t=3230.04 test_index=8 n_in_test=4226466 label=definitely_not_constant_time
+02:07:02 start v1_O2nv rep 1
+   FINAL measurements=10000000 seconds=578 max_abs_t=2.30 test_index=100 n_in_test=9975128 label=maybe_constant_time
+02:16:41 start v0_Os_lto rep 1
+   FINAL measurements=10000000 seconds=443 max_abs_t=2.16 test_index=3 n_in_test=9162442 label=maybe_constant_time
+02:24:04 start v0flags_Os rep 1
+   FINAL measurements=10000000 seconds=979 max_abs_t=1.68 test_index=92 n_in_test=9942896 label=maybe_constant_time
+02:40:24 start v2_Os rep 1
+   FINAL measurements=10000000 seconds=530 max_abs_t=1.97 test_index=80 n_in_test=9920095 label=maybe_constant_time
+02:49:14 start v3_Os rep 1
+   FINAL measurements=10000000 seconds=674 max_abs_t=1.92 test_index=7 n_in_test=4031617 label=maybe_constant_time
+03:00:28 start v0_Os rep 2
+   FINAL measurements=2380000 seconds=8388 max_abs_t=2989.34 test_index=17 n_in_test=1594163 label=definitely_not_constant_time
+05:20:16 start v1_Os rep 2
+   FINAL measurements=6030000 seconds=7236 max_abs_t=2.72 test_index=9 n_in_test=5854064 label=maybe_constant_time
+07:20:52 start v0_O2nv rep 2
+   FINAL measurements=6530000 seconds=6706 max_abs_t=1674.88 test_index=1 n_in_test=5931188 label=definitely_not_constant_time
+09:12:38 start v1_O2nv rep 2
+   FINAL measurements=6370000 seconds=1801 max_abs_t=1.43 test_index=14 n_in_test=5400023 label=maybe_constant_time
+09:42:39 start v0_Os_lto rep 2
+   FINAL measurements=10000000 seconds=478 max_abs_t=2.33 test_index=101 n_in_test=9958885 label=maybe_constant_time
+09:50:37 start v0flags_Os rep 2
+   FINAL measurements=10000000 seconds=752 max_abs_t=2.39 test_index=91 n_in_test=9849837 label=maybe_constant_time
+10:03:09 start v2_Os rep 2
+   FINAL measurements=10000000 seconds=452 max_abs_t=2.06 test_index=15 n_in_test=6142829 label=maybe_constant_time
+10:10:41 start v3_Os rep 2
+   FINAL measurements=10000000 seconds=432 max_abs_t=2.70 test_index=101 n_in_test=9958781 label=maybe_constant_time
+10:17:53 start v0_Os rep 3
+   FINAL measurements=10000000 seconds=643 max_abs_t=5388.16 test_index=16 n_in_test=5302763 label=definitely_not_constant_time
+10:28:36 start v1_Os rep 3
+   FINAL measurements=10000000 seconds=553 max_abs_t=2.20 test_index=9 n_in_test=3319196 label=maybe_constant_time
+10:37:49 start v0_O2nv rep 3
+   FINAL measurements=10000000 seconds=541 max_abs_t=4293.75 test_index=5 n_in_test=6326197 label=definitely_not_constant_time
+10:46:50 start v1_O2nv rep 3
+   FINAL measurements=10000000 seconds=597 max_abs_t=2.32 test_index=101 n_in_test=9958997 label=maybe_constant_time
+10:56:47 start v0_Os_lto rep 3
+   FINAL measurements=10000000 seconds=441 max_abs_t=2.03 test_index=1 n_in_test=629357 label=maybe_constant_time
+11:04:08 start v0flags_Os rep 3
+   FINAL measurements=10000000 seconds=605 max_abs_t=2.22 test_index=75 n_in_test=9783381 label=maybe_constant_time
+11:14:13 start v2_Os rep 3
+   FINAL measurements=10000000 seconds=463 max_abs_t=1.32 test_index=47 n_in_test=8910743 label=maybe_constant_time
+11:21:56 start v3_Os rep 3
+   FINAL measurements=10000000 seconds=445 max_abs_t=1.03 test_index=49 n_in_test=9847296 label=maybe_constant_time
 
 all runs done
 cell        rep  measurements  seconds  max_abs_t  test_index  n_in_test  label                         date_utc
-v0_Os       1    10000000      566      1011.78    52          7813835    definitely_not_constant_time  2026-11-11T12:58:58Z
-v1_Os       1    10000000      522      2.05       50          9539685    maybe_constant_time           2026-11-11T13:07:40Z
-v0_O2nv     1    10000000      502      3017.43    36          8237969    definitely_not_constant_time  2026-11-11T13:16:02Z
-v1_O2nv     1    10000000      540      2.18       54          9724140    maybe_constant_time           2026-11-11T13:25:02Z
-v0_Os_lto   1    10000000      415      2.86       59          9777404    maybe_constant_time           2026-11-11T13:31:57Z
-v0flags_Os  1    10000000      534      1.13       79          9929161    maybe_constant_time           2026-11-11T13:40:51Z
-v2_Os       1    10000000      438      2.20       55          9697060    maybe_constant_time           2026-11-11T13:48:09Z
-v3_Os       1    10000000      398      2.90       34          7019872    maybe_constant_time           2026-11-11T13:54:47Z
-v0_Os       2    10000000      550      1898.99    31          9294985    definitely_not_constant_time  2026-11-11T14:03:57Z
-v1_Os       2    10000000      528      1.90       7           1704738    maybe_constant_time           2026-11-11T14:12:45Z
-v0_O2nv     2    10000000      504      2771.88    17          5910486    definitely_not_constant_time  2026-11-11T14:21:09Z
-v1_O2nv     2    10000000      545      1.59       57          9666624    maybe_constant_time           2026-11-11T14:30:14Z
-v0_Os_lto   2    10000000      414      2.22       1           3546648    maybe_constant_time           2026-11-11T14:37:08Z
-v0flags_Os  2    10000000      534      1.98       65          9849329    maybe_constant_time           2026-11-11T14:46:02Z
-v2_Os       2    10000000      415      2.07       5           5274770    maybe_constant_time           2026-11-11T14:52:57Z
-v3_Os       2    10000000      399      1.15       57          9744956    maybe_constant_time           2026-11-11T14:59:36Z
-v0_Os       3    10000000      548      1789.31    38          9485416    definitely_not_constant_time  2026-11-11T15:08:44Z
-v1_Os       3    10000000      524      2.65       1           343477     maybe_constant_time           2026-11-11T15:17:28Z
-v0_O2nv     3    10000000      503      2409.22    20          7040760    definitely_not_constant_time  2026-11-11T15:25:51Z
-v1_O2nv     3    10000000      536      1.48       23          9708872    maybe_constant_time           2026-11-11T15:34:47Z
-v0_Os_lto   3    10000000      410      1.54       14          4785782    maybe_constant_time           2026-11-11T15:41:37Z
-v0flags_Os  3    10000000      529      1.16       99          9967639    maybe_constant_time           2026-11-11T15:50:26Z
-v2_Os       3    10000000      410      1.43       101         9959093    maybe_constant_time           2026-11-11T15:57:16Z
-v3_Os       3    10000000      394      1.71       20          8750812    maybe_constant_time           2026-11-11T16:03:50Z
+v0_Os       1    10000000      647      4853.72    6           5978737    definitely_not_constant_time  2026-11-16T19:47:51Z
+v1_Os       1    10000000      611      1.80       93          9958038    maybe_constant_time           2026-11-16T19:58:02Z
+v0_O2nv     1    10000000      540      3230.04    8           4226466    definitely_not_constant_time  2026-11-16T20:07:02Z
+v1_O2nv     1    10000000      578      2.30       100         9975128    maybe_constant_time           2026-11-16T20:16:40Z
+v0_Os_lto   1    10000000      443      2.16       3           9162442    maybe_constant_time           2026-11-16T20:24:04Z
+v0flags_Os  1    10000000      979      1.68       92          9942896    maybe_constant_time           2026-11-16T20:40:24Z
+v2_Os       1    10000000      530      1.97       80          9920095    maybe_constant_time           2026-11-16T20:49:14Z
+v3_Os       1    10000000      674      1.92       7           4031617    maybe_constant_time           2026-11-16T21:00:28Z
+v0_Os       2    2380000       8388     2989.34    17          1594163    definitely_not_constant_time  2026-11-16T23:20:16Z
+v1_Os       2    6030000       7236     2.72       9           5854064    maybe_constant_time           2026-11-17T01:20:52Z
+v0_O2nv     2    6530000       6706     1674.88    1           5931188    definitely_not_constant_time  2026-11-17T03:12:38Z
+v1_O2nv     2    6370000       1801     1.43       14          5400023    maybe_constant_time           2026-11-17T03:42:39Z
+v0_Os_lto   2    10000000      478      2.33       101         9958885    maybe_constant_time           2026-11-17T03:50:37Z
+v0flags_Os  2    10000000      752      2.39       91          9849837    maybe_constant_time           2026-11-17T04:03:09Z
+v2_Os       2    10000000      452      2.06       15          6142829    maybe_constant_time           2026-11-17T04:10:41Z
+v3_Os       2    10000000      432      2.70       101         9958781    maybe_constant_time           2026-11-17T04:17:53Z
+v0_Os       3    10000000      643      5388.16    16          5302763    definitely_not_constant_time  2026-11-17T04:28:36Z
+v1_Os       3    10000000      553      2.20       9           3319196    maybe_constant_time           2026-11-17T04:37:49Z
+v0_O2nv     3    10000000      541      4293.75    5           6326197    definitely_not_constant_time  2026-11-17T04:46:50Z
+v1_O2nv     3    10000000      597      2.32       101         9958997    maybe_constant_time           2026-11-17T04:56:47Z
+v0_Os_lto   3    10000000      441      2.03       1           629357     maybe_constant_time           2026-11-17T05:04:08Z
+v0flags_Os  3    10000000      605      2.22       75          9783381    maybe_constant_time           2026-11-17T05:14:13Z
+v2_Os       3    10000000      463      1.32       47          8910743    maybe_constant_time           2026-11-17T05:21:56Z
+v3_Os       3    10000000      445      1.03       49          9847296    maybe_constant_time           2026-11-17T05:29:21Z
